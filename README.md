@@ -16,3 +16,7 @@ libavfilter     7. 57.100 /  7. 57.100
 libswscale      5.  5.100 /  5.  5.100
 libswresample   3.  5.100 /  3.  5.100
 ```
+
+## Notes
+
+`install_ffmpeg_supporting_openh264.sh` is originally copied from [contribu/install_ffmpeg_supporting_openh264.sh |  Github Gist](https://gist.github.com/contribu/8a572edaccb86ae749449a3fec83ce5f) and modified versions of openh264 & ffmpeg.
