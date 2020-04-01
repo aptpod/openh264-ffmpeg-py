@@ -4,7 +4,7 @@
 
 ```shell
 $ docker build -t openh264-ffmpeg-py .
-$ docker run -it openh264-ffmpeg-py
+$ docker run --rm -it openh264-ffmpeg-py
 ffmpeg version n4.2.2 Copyright (c) 2000-2019 the FFmpeg developers
 built with gcc 8 (Debian 8.3.0-6)
 configuration: --enable-libopenh264 --enable-libmp3lame --enable-libopus --enable-libvorbis --enable-libvpx
