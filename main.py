@@ -9,7 +9,7 @@ if __name__ == '__main__':
     
     fps = eval(info['streams'][0]['avg_frame_rate'])
 
-    print('\ndecode it to jpeg images', flush=True)
+    print('\ndecode it to jpeg images:', flush=True)
     ffmpeg.input('/movies/original.mov').output('/tmp/%05d.jpg', r=fps).run()
     print('\n------\n', flush=True)
     print('\nre-encode them to a mp4 file using libopenh264:', flush=True)
