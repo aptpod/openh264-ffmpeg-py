@@ -1,4 +1,6 @@
-# OpenH264 FFmpeg py
+# OpenH264 FFmpeg Python
+
+A sample Dockerfile to use OpenH264 & FFmpeg from python codes.
 
 ## Usage
 
